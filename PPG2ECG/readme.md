@@ -42,5 +42,11 @@ python train_dist.py --config_path /path/your/config_path
 학습이 완료되면 inference.ipynb를 참고하여 학습 완료된 모델의 가중치를 로드하여 추론을 수행할 수 있습니다.
 ## 4. 학습 결과
 ### Quantitative Evaluation
-
+|모델|MAE|NMAE|RMSE|NRMSE|PRD|DTW|
+|------|---|---|---|---|---|---|
+|CycleGAN|0.2103|0.5887|0.3214|0.1607|9.833|50.140|
 ### Qualitative Evaluation
+![image](https://github.com/cjw94103/PPG2ECG_based_Application_Research/assets/45551860/9307ed32-1693-4212-9f68-694b03566d32)
+
+![image](https://github.com/cjw94103/PPG2ECG_based_Application_Research/assets/45551860/b2787e52-20c6-4151-81f3-9720f5349b83)
+
