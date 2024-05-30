@@ -1,0 +1,20 @@
+{
+    "partition_path": "./partition/Total_Partition.npy",
+    "num_workers": 0,
+    "batch_size": 192,
+    "target_sampling_rate": 128.0,
+    "min_max_norm": true,
+    "z_score_norm": true,
+    "sig_time_len": 4,
+    "interp_method": "spline",
+    "n_residual_blocks": 6,
+    "lambda_cyc": 0.1,
+    "lr": 0.0002,
+    "b1": 0.5,
+    "b2": 0.999,
+    "lr_decay_epoch": 10,
+    "num_epochs": 15,
+    "save_per_epochs": 1,
+    "model_save_path": "./model_result/CycleGAN/PPG2ECG_CycleGAN.pth",
+    "dist_proc_port": "12355"
+}

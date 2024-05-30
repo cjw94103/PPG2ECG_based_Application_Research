@@ -1,0 +1,20 @@
+{
+    "partition_path": "./partition/03_partition_formatting.npy",
+    "num_workers": 0,
+    "batch_size": 128,
+    "target_sampling_rate": 128.0,
+    "min_max_norm": true,
+    "z_score_norm": true,
+    "sig_time_len": 10,
+    "interp_method": "spline",
+    "z_score_norm_rescale": false,
+    "min_max_norm_rescale": true,
+    "in_channels": 2,
+    "num_classes": 6,
+    "lr": 0.005,
+    "weight_decay": 1e-05,
+    "num_epochs": 60,
+    "monitor": "average_f1",
+    "model_save_path": "./model_result/02_PPGECG/VGG16_PPGECG.pth",
+    "dist_proc_port": "12455"
+}
