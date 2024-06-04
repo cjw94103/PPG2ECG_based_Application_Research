@@ -39,4 +39,4 @@ Synchronized PPG, ECG가 있는 BIDMC, CapnoBase, DaLia, WESAD 데이터셋에�
 |WESAD|PPG|11.8635|
 ||SYNECG|9.4286|
 
-모든 데이터셋에서 SYNECG를 통한 HR 계산이 MAE 오차가 더 적습니다.
+CapnoBase를 제외한 모든 데이터셋에서 SYNECG를 통한 HR 계산이 MAE 오차가 더 적습니다.
